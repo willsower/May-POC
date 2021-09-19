@@ -11,19 +11,29 @@
 
     <!-- JS -->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src = "/js/main.js"></script>
     
     <title>May Rose</title>
 </head>
 
 <body>
-    <header class = "">
+    <header class = "" id = "home">
         <!-- Logo -->
         <img src = "/img/MayLogo_Crop.png" class = "m-auto mt-12 cursor-pointer toast">
+        <nav class = "text-center mt-5">
+            <ul class = "">
+                <li class = "inline-block"><a href = "#home" class = "font-sans nav-link nav-link-ltr">Home</a></li>
+                &#xb7;
+                <li class = "inline-block"><a href = "#experience" class = "font-sans inline-block nav-link nav-link-ltr">Experience</a></li>
+                &#xb7;
+                <li class = "inline-block"></li><a href = "#contact" class = "font-sans inline-block nav-link nav-link-ltr">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <!-- Home Section -->
-        <section class = "md:flex md:mt-12 md:max-w-6xl md:m-auto">
+        <section class = "md:flex md:max-w-6xl md:m-auto">
             <!-- Image of May -->
             <div class = "md:w-1/2">
                 <img src = "/img/Portraits/May_Portrait1.png" class = "m-auto">
@@ -41,7 +51,7 @@
         <!-- End of Home Section -->
         
         <!-- Work Experience Section -->
-        <section class = "bg-gray-200 pt-20 pb-20">
+        <section class = "bg-gray-200 pt-20 pb-20" id = "experience">
             <div class = "sm:max-w-6xl sm:m-auto">
                 <p class = "ml-4 font-sans font-bold text-4xl text-center">Places worked</p>
                 <p class = "font-sans text-xl sm:text-2xl ml-4 mb-10 mt-10 pl-10 pr-10">I'm currently working at Alta Pest Control as a Sales Representative. Here are all of the various places I've worked along my career.</p>
@@ -121,7 +131,7 @@
         <!-- End of Sales Stats -->
 
         <!-- Contact -->
-        <section class = "bg-gray-200 pt-20 pb-20">
+        <section class = "bg-gray-200 pt-20 pb-20" id = "contact">
             <div class = "sm:max-w-6xl sm:m-auto sm:flex">
                 <div class = "sm:w-1/2">
                     <p class = "ml-4 font-sans font-bold text-5xl pl-10 pr-10 text-center">Work With Me!</p>
