@@ -44,7 +44,7 @@ function animateValue(id, start, duration) {
     }, stepTime);
 }
 
-animateValue("value1", 0, 3000);
-animateValue("value2", 0, 3000);
-animateValue("value3", 0, 3000);
-animateValue("value4", 0, 3000);
+animateValue("value1", 0, 5000);
+animateValue("value2", 0, 5000);
+animateValue("value3", 0, 5000);
+animateValue("value4", 0, 5000);
