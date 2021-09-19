@@ -32,6 +32,7 @@ html {
   padding-right: 5px;
 
   font-family: sans-serif !important;
+  transition: 0.3s;
 }
 
 /* Underline in Nav */
