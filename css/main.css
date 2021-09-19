@@ -8,13 +8,14 @@ html {
 
 #hover-content {
     display:none;
+    visibility: hidden;
 }
 
-#parent:hover #hover-content {
+.parent:hover #hover-content {
     display:block;
+    visibility: visible;
 }
  
-
 /* Underline in Nav */
 
 .nav-link {
