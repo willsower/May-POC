@@ -68,3 +68,7 @@ html {
 .nav-link-ltr:hover::before {
   width: 100%;
 }
+
+.large-width {
+  width: 20rem;
+}
