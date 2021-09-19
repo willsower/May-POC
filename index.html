@@ -8,11 +8,6 @@
     <!-- CSS -->
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href = "/css/main.css" rel="stylesheet">
-
-    <!-- JS -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src = "/js/main.js"></script>
     
     <title>May Rose</title>
 </head>
@@ -118,13 +113,43 @@
         <!-- End of Work Section -->
 
         <!-- Sales Stats -->
-        <section class = "bg-red-200 pt-20 pb-20">
+        <section class = "pt-20 pb-20">
             <div class = "sm:max-w-6xl sm:m-auto">
                 <p class = "ml-4 font-sans font-bold text-4xl text-center">My Stats</p>
                 
                 <!-- My stats -->
-                <div>
+                <div class = "bg-gray-200 border p-4 rounded shadow-lg m-auto mt-10 text-center font-sans w-4/5 sm:max-w-6xl">
+                    <!-- Accounts Sold -->
+                    <!-- Year 1: 155 -->
+                    <!-- Year 2 and Counting: 200 -->
+                    <div class = "inline-block m-4 text-xl">
+                        <img src = "/img/list_icon.png" width = "60" class = "m-auto">
+                        <p class = "font-bold text-3xl" id = "value1">355</p>
+                        <p class = "">Accounts Sold</p>
+                    </div>
 
+                    <!-- Revenue Made -->
+                    <!-- Year 1: 66k revenue -->
+                    <!-- Year 2 and Counting: 111k -->
+                    <div class = "inline-block m-4 text-xl">
+                        <img src = "/img/revenue.png" width = "60" class = "m-auto">
+                        <p class = "font-bold text-3xl">$<span id = "value2">177</span>K</p>
+                        <p>Revenue Made</p>
+                    </div>
+
+                    <!-- Average Contract -->
+                    <div class = "inline-block m-4 text-xl">
+                        <img src = "/img/avg_revenue.png" width = "60" class = "m-auto">
+                        <p class = "font-bold text-3xl">~$<span id = "value3">549</span></p>
+                        <p>Average Contract</p>
+                    </div>
+
+                    <!-- Selling Days -->
+                    <div class = "inline-block m-4 text-xl">
+                        <img src = "/img/calendar.png" width = "70" class = "m-auto">
+                        <p class = "font-bold text-3xl" id = "value4">93</p>
+                        <p>Selling Days</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -180,5 +205,10 @@
     <footer>
         <p class = "h-12 text-center vertical-align mt-6 font-sans">&copy; Copyright 2021, All Rights Reserved</p>
     </footer>
+
+    <!-- JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "/js/main.js"></script>
 </body>
 </html>
