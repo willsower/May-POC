@@ -32,7 +32,7 @@ html {
   padding-right: 5px;
 
   font-family: sans-serif !important;
-  transition: 0.3s;
+  /* transition: 1s; */
 }
 
 /* Underline in Nav */
@@ -79,6 +79,15 @@ html {
   width: 300px;
 }
 
+.logo-font {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+.logo-word-space {
+  word-spacing: 4px;
+}
+
 /* Youtube Vieo */
 .videoWrapper {
   position: relative;
@@ -95,11 +104,15 @@ html {
 
 @media (min-width: 640px) {
   .small-96 {
-    width: 25rem;
+    width: 5rem;
   }
 
   .large-width {
     width: 17rem;
+  }
+
+  .logo-font {
+    font-size: 18px;
   }
 }
 
