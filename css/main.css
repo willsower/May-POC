@@ -32,7 +32,7 @@ html {
   padding-right: 5px;
 
   font-family: sans-serif !important;
-  transition: 0.3s;
+  /* transition: 1s; */
 }
 
 /* Underline in Nav */
@@ -71,4 +71,53 @@ html {
 
 .large-width {
   width: 20rem;
+}
+
+/* Logo */
+
+.oneoheight {
+  width: 300px;
+}
+
+.logo-font {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+.logo-word-space {
+  word-spacing: 4px;
+}
+
+/* Youtube Vieo */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+@media (min-width: 640px) {
+  .small-96 {
+    width: 5rem;
+  }
+
+  .large-width {
+    width: 17rem;
+  }
+
+  .logo-font {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .large-width {
+    width: 20rem;
+  }
 }
