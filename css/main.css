@@ -72,3 +72,25 @@ html {
 .large-width {
   width: 20rem;
 }
+
+/* Logo */
+
+.oneoheight {
+  width: 300px;
+}
+
+@media (min-width: 640px) {
+  .small-96 {
+    width: 25rem;
+  }
+
+  .large-width {
+    width: 17rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .large-width {
+    width: 20rem;
+  }
+}
