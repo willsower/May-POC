@@ -49,3 +49,5 @@ animateValue("value2", 0, 5000);
 animateValue("value3", 0, 5000);
 animateValue("value4", 0, 5000);
 animateValue("value5", 0, 5000);
+animateValue("value6", 0, 5000);
+animateValue("value7", 0, 5000);
